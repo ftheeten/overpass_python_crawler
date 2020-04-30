@@ -11,12 +11,7 @@ y_min=-14
 y_max=6
 
 
-"""
-x_min=12
-x_max=20
-y_min=-14
-y_max=-6
-"""
+
 cpt=1
 cpt_min=1
 for x in range(x_min,x_max, size_degree):

@@ -3,7 +3,7 @@ import requests
 save_folder="C:\\WORK_CORONA\\osm_congo\\"
 
 root_url="http://overpass-api.de/api/interpreter?data="
-size_degree=6
+size_degree=4
 
 x_min=12
 x_max=32
@@ -18,7 +18,7 @@ y_min=-14
 y_max=-6
 """
 cpt=1
-cpt_min=5
+cpt_min=1
 for x in range(x_min,x_max, size_degree):
     print(x)
     for y in range(y_min,y_max, size_degree):

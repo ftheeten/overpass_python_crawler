@@ -1,3 +1,4 @@
+#code heavily based on the QuickOSM pluging of Quantum GIS
 import requests
 
 save_folder="C:\\WORK_CORONA\\osm_congo\\"
